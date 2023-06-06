@@ -9,8 +9,7 @@ import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
 import Education from '@/components/Education'
 import TransitionEffect from '@/components/TransitionEffect'
-import HireMe from '@/components/HireMe'
-import Webdev from '../../public/images/webdev.png'
+import Jungla from '../../public/images/profile/bg.png'
 
 
 const AnimatedNumbers = ({ value }) => {
@@ -39,11 +38,14 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>PBX Web Design | About Page</title>
+        <title>Pablo Barrios Developer | About Page</title>
         <meta name='description' content='Desarrollo y diseño de páginas web. '></meta>
       </Head>
       <TransitionEffect />
       <main className='flex w-full flex-col items-center justify-center'>
+        <div className="fixed inset-0 z-0 pointer-events-none">
+          <Image src={Jungla} alt='Selva' className='w-full h-full object-cover' />
+        </div>
         <Layout className='pt-16'>
           <AnimatedText text='El sueño de ser programador' className='py-12 xs:py-2 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
           <div className='grid w-full grid-cols-8 gap-16 sm:gap-8 '>
@@ -65,7 +67,7 @@ const about = () => {
             <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark
             bg-light p-8 xl:col-span-4 md:order-1 md:col-span-8'>
               <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark '></div>
-              <Image src={profilePic} alt="Pablo Barrios, PBX Web Design" className='w-50 h-auto rounded-2xl' priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" />
+              <Image src={profilePic} alt="Pablo Barrios, Pablo Barrios Developer" className='w-50 h-auto rounded-2xl' priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" />
             </div>
             <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
               <div className='flex flex-col items-end justify-center xl:items-center'>
@@ -86,10 +88,6 @@ const about = () => {
           <Experience />
           <Education />
         </Layout>
-        <HireMe />
-        <div className='absolute right-32 bottom- inline-block w-96 md:hidden 2xl:hidden '>
-
-        </div>
       </main>
     </>
   )
