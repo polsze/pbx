@@ -14,7 +14,7 @@ const Footer = () => {
         <span className='text-light relative z-40'>{new Date().getFullYear()} &copy; Posadas, Argentina.</span>
         <div className='text-light flex items-center animate-[pulse_2s_ease-in_infinite]'
           target={"_blank"}>
-          Pablo Barrios Portfolio
+          PBX Web Design 
           <div className='flex items-center justify-center flex-wrap '>
             <motion.a href='https://api.whatsapp.com/send?phone=543765252582' target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className=' w-6 mx-3 bg-green-600 rounded-full'><WhatsAppIcon /></motion.a>
 

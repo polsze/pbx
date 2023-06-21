@@ -5,7 +5,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Project1 from '../../public/images/projects/project.png'
+import Project1 from '../../public/images/projects/hs.png'
 import Project2 from '../../public/images/projects/project2.png'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -35,7 +35,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         <p className='my-2 font-medium text-dark sm:text-sm'>{summary}</p>
         <div className='mt-2 flex items-center'>
           <Link href={github} target={"_blank"} className='w-10'><GithubIcon /></Link>
-          <Link href={github} target={"_blank"} className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base'>Visitá la página</Link>
+          <Link href="https://www.haushguitars.com" target={"_blank"} className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base'>Visitá la página</Link>
         </div>
       </div>
 
@@ -61,8 +61,8 @@ const FeaturedProject2 = ({ type, title, summary, img, link, github }) => {
         </Link>
         <p className='my-2 font-medium text-dark'>{summary}</p>
         <div className='mt-2 flex items-center'>
-          <Link href={github} target={"_blank"} className='w-10'><GithubIcon /></Link>
-          <Link href={github} target={"_blank"} className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base'>Visitá la página</Link>
+          <Link href="https://www.github.com/polsze" target={"_blank"} className='w-10'><GithubIcon /></Link>
+          <a href="" target={"_blank"} className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base'>Visitá la página</a>
         </div>
       </div>
 
