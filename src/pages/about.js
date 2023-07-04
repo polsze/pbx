@@ -4,10 +4,10 @@ import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Head from 'next/head'
 import Image from 'next/image'
 import React, { useRef, useEffect } from 'react'
-import profilePic from '../../public/images/profile/pol.png'
+import profilePic from '../../public/images/profile/pol.webp'
 import Skills from '@/components/Skills'
 import TransitionEffect from '@/components/TransitionEffect'
-import Jungla from '../../public/images/profile/bg.png'
+import Jungla from '../../public/images/profile/bg.webp'
 
 
 const AnimatedNumbers = ({ value }) => {

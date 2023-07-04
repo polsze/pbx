@@ -5,11 +5,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Project1 from '../../public/images/projects/hs.png'
-import Project2 from '../../public/images/projects/project2.png'
+import Project1 from '../../public/images/projects/hs.webp'
+import Project2 from '../../public/images/projects/project2.webp'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
-import Cubes from '../../public/images/profile/bg.png'
+import Cubes from '../../public/images/profile/bg.webp'
 
 const FramerImage = motion(Image);
 
