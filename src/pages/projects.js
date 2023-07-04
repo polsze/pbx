@@ -62,7 +62,7 @@ const FeaturedProject2 = ({ type, title, summary, img, link, github }) => {
         <p className='my-2 font-medium text-dark'>{summary}</p>
         <div className='mt-2 flex items-center'>
           <Link href="https://www.github.com/polsze" target={"_blank"} className='w-10'><GithubIcon /></Link>
-          <a href="" target={"_blank"} className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base'>Visitá la página</a>
+          <a href="https://yararaenaccion.vercel.app/" target={"_blank"} className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base'>Visitá la página</a>
         </div>
       </div>
 
