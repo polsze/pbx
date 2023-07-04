@@ -102,7 +102,7 @@ const projects = () => {
                 title="Yarara en Acción"
                 img={Project2}
                 summary="Página web para una asociación orientada en nuestra fauna y su protección, dedicada al rescate y la liberación de animales silvestres."
-                link="https://www.haushguitars.com"
+                link="https://yararaenaccion.vercel.app/"
                 github="github.com/polsze"
                 type="Proyecto en Desarrollo"
               />
