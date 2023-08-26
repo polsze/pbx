@@ -7,7 +7,7 @@ import Link from 'next/link'
 import React from 'react'
 import Project1 from '../../public/images/projects/hs.webp'
 import Project2 from '../../public/images/projects/project2.webp'
-import Project3 from '../../public/images/projects/sa.png'
+import Project3 from '../../public/images/projects/serviceoficial-caba.png'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 import Cubes from '../../public/images/profile/bg.webp'
@@ -90,7 +90,7 @@ const FeaturedProject3 = ({ type, title, summary, img, link, github }) => {
         <p className='my-2 font-medium text-dark'>{summary}</p>
         <div className='mt-2 flex items-center'>
           <Link href="https://www.github.com/polsze" target={"_blank"} className='w-10'><GithubIcon /></Link>
-          <a href="https://serviceautorizado.vercel.app/" target={"_blank"} className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base'>Visitá la página</a>
+          <a href="https://serviceoficial-caba.com.ar/" target={"_blank"} className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base'>Visitá la página</a>
         </div>
       </div>
 
@@ -125,12 +125,12 @@ const projects = () => {
             </div>
             <div className='col-span-12'>
               <FeaturedProject3
-                title="Service Autorizado"
+                title="Service Oficial CABA"
                 img={Project3}
                 summary="Página web para un Servicio Técnico de Helaras de Capital Federal, Buenos Aires."
-                link="https://serviceautorizado.vercel.app/"
+                link="https://serviceoficial-caba.com.ar/"
                 github="github.com/polsze/serviceautorizado"
-                type="Proyecto en Desarrollo"
+                type="Proyecto finalizado"
               />
             </div>
             <div className='col-span-12'>
