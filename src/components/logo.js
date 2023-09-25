@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import PbxLogo from '../../public/images/profile/pbx1.webp'
+import PbxLogo from '../../public/images/profile/logopbx2.webp'
 
 const MotionLink = motion(Link);
 

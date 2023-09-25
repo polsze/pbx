@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
 import profilePic from '../../public/images/profile/developer.webp'
-import Jungla from '../../public/images/profile/bg.webp'
+import Jungla from '../../public/images/profile/bgtech.webp'
 import AnimatedText from '@/components/AnimatedText'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -34,9 +34,6 @@ export default function Home() {
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="https://api.whatsapp.com/send?phone=543765252582" target={"_blank"} className='flex items-center bg-green-700 text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark md:p-2 md:px-4 md:text-base' download={true}>
                   WhatsApp <LinkArrow className={"w-6 ml-1"} />
-                </Link>
-                <Link href="mailto:polbarrios835237@gmail.com" target={"_blank"} className='ml-4 text-lg font-medium capitalize text-dark underline md:text-base'>
-                  Contacto
                 </Link>
               </div>
             </div>
