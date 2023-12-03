@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         mont: ['var(--font-mont)'],
+        racing: ['Racing Sans One', 'sans-serif']
+
       },
       colors: {
     dark: "#1b1b1b",
@@ -16,19 +18,14 @@ module.exports = {
         'spin-slow': 'spin 3s linear infinite',
       },
       backgroundImage: {
-        circularLight: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 100px);',
-        circularLightLg: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 80px);',
-        circularLightMd:
-        "repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#f5f5f5 5px,#f5f5f5 60px)",
-        circularLightSm:
-        "repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#f5f5f5 5px,#f5f5f5 40px)"
+       "heroBg":"url(/images/profile/bgcode3.webp)"        
       },
     },
     screens:{
-      "2xl": { max: "1535px" },
+      "3xl": { max: "1535px" },
     // => @media (max-width: 1535px) { ... }
 
-    "3xl": { max: "1300px" },
+    "2xl": { max: "1300px" },
     // => @media (max-width: 1300px) { ... }
 
     xl: { max: "1279px" },
@@ -45,7 +42,7 @@ module.exports = {
 
     xs: { max: "479px" },
     // => @media (max-width: 479px) { ... }
-    }
+    },
   },
   plugins: [],
 };

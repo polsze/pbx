@@ -8,9 +8,10 @@ const MotionLink = motion(Link);
 
 const Logo = () => {
 	return (
-		<div className='flex items-center justify-center mt-28 -mb-32'>
+		<div className='flex items-center justify-center'>
 			<MotionLink href='/' className='w-50 h-50 flex items-center justify-center'
-			><Image src={PbxLogo} alt="" className='-mt-36 w-[50%] h-[50%] animate-pulse xl:ml-36 3xl:ml-48 md:ml-2 md:mr-4 lg:w-[80%] lg:-mt-8 lg:mr-48 sm:-mt-36 sm:h-[auto] sm:w-[100%] sm:pt-6' />
+			>
+			<p className='text-3xl text-pink-400 font-racing sm:text-center sm:text-2xl'>PBX Web Design</p>
 			</MotionLink>
 		</div>
 	)

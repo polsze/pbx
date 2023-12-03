@@ -7,10 +7,10 @@ import { motion } from 'framer-motion'
 
 const Footer = () => {
   return (
-    <footer className='w-full border-t-2 border-solid border-dark
+    <footer className='w-full border-t-2 p-8 border-solid border-dark
     font-mediun text-lg sm:text-base xs:text-center
     '>
-      <Layout className='py-8 flex items-center justify-between lg:flex-col lg:py-4'>
+      <Layout className='py-28 flex items-center justify-between lg:flex-col lg:py-4'>
         <span className='text-light relative z-40'>{new Date().getFullYear()} &copy; Posadas, Argentina.</span>
         <div className='text-light flex items-center animate-[pulse_2s_ease-in_infinite]'
           target={"_blank"}>
