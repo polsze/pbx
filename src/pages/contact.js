@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import useForm from "@/components/useForm.js";
+import  useForm  from "@/hooks/useForm.js";
 import Head from 'next/head'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'

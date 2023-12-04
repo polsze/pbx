@@ -7,7 +7,6 @@ import React, { useRef, useEffect } from 'react'
 import profilePic from '../../public/images/profile/pol.webp'
 import Skills from '@/components/Skills'
 import TransitionEffect from '@/components/TransitionEffect'
-import Jungla from '../../public/images/profile/bgtech.webp'
 
 
 const AnimatedNumbers = ({ value }) => {

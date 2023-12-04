@@ -1,11 +1,9 @@
 
 
 import React, { useState } from 'react'
-import Link from "next/link"
 import { useRouter } from 'next/navigation'
 import { GithubIcon, LinkedInIcon, WhatsAppIcon } from './Icons'
 import { motion } from 'framer-motion'
-
 import Logo from './logo'
 
 const CustomLink = ({ href, title, className = '' }) => {
