@@ -11,7 +11,6 @@ import Project3 from '../../public/images/projects/serviceoficial-caba.webp'
 import Project4 from '../../public/images/projects/infochalten.webp'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
-import Cubes from '../../public/images/profile/bgtech.webp'
 
 const FramerImage = motion(Image);
 

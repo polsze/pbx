@@ -8,7 +8,7 @@ import Layout from "@/components/Layout";
 
 
 
-const Contact = () => {
+const ContactMe = () => {
   const initialData = {
     nombre: "",
     correo: "",
@@ -183,4 +183,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactMe;
