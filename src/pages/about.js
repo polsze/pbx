@@ -51,11 +51,10 @@ const about = () => {
               <p className='my-4 font-medium'>
                 Hola, soy Pablo Barrios, un apasionado programador y diseñador junior, en permanente actualización en el uso de tecnologías para el desarrollo
                 de aplicaciones WEB funcionales y orientadas
-                en la experiencia del usuario para una eficaz navegación. Empecé a estudiar programación full stack en el año 2022, extendiéndose hasta el presente.
-                Preparándome para poder insertarme en este mundo y cumplir mi sueño de ser ¡Programador!.
+                en la experiencia del usuario para una eficaz navegación. 
               </p>
               <p className='my-4 font-medium'>Creo en el desarrollo para construir cualquier tipo de aplicación capaz de resolver problemas.
-                Orientadas en interfaces innovadoras que permitan al usuario una fluida y eficaz experiencia en la página.
+                Orientadas en interfaces innovadoras que permitan al usuario una fluida y eficaz experiencia en el sistema en cuestión.
               </p>
               <p className='my-4 font-medium'>Espero con ansias -aunque nunca dejando de lado la continua preparación- la oportunidad
                 de aportar mis habilidades y pasión a su próximo proyecto.</p>
