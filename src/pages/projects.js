@@ -8,7 +8,7 @@ import React from "react";
 import Project1 from "../../public/images/projects/haush.webp";
 import Project2 from "../../public/images/projects/yarara.webp";
 import Project3 from "../../public/images/projects/serviceoficial-caba.webp";
-import Project4 from "../../public/images/projects/infochalten.webp";
+import Project4 from "../../public/images/projects/infochalten-hero.webp";
 import Project5 from "../../public/images/projects/eflow.png";
 import Project6 from "../../public/images/projects/suka.webp";
 import { motion } from "framer-motion";
@@ -379,7 +379,7 @@ const projects = () => {
               <FeaturedProject
                 title="Haush Guitars"
                 img={Project1}
-                summary="Página web para un Luthier profesional de Buenos Aires que trabaja con artistas de renombre en el ambiente del Rock Nacional. A futuro incluirá E-Commerce."
+                summary="Página web para un Luthier profesional de Buenos Aires que trabaja con artistas de renombre en el ambiente del Rock Nacional. En proceso de incorporación de E-Commerce."
                 link="https://www.haushguitars.com"
                 github="https://github.com/polsze/Haush-Guitars"
                 type="Proyecto destacado"
@@ -390,10 +390,21 @@ const projects = () => {
               <FeaturedProject4
                 title="Info Chaltén"
                 img={Project4}
-                summary="Aplicación No Code y Landing page, para el municipio turístico de El Chaltén."
+                summary="Desarrollo de una Aplicación No Code y Landing Page para Turistas y Residentes Locales, ofreciendo información detallada y servicios útiles para explorar y disfrutar tanto de los destinos turísticos como de la vida cotidiana en El Chaltén"
                 link="https://infochalten.com/"
                 github="https://github.com/polsze/"
                 type="Proyecto Finalizado"
+              />
+            </div>
+
+            <div className="col-span-12 px-6 pb-6">
+              <FeaturedProject5
+                title="Eflowchat – CRM Chat MultiAgente WhatsApp"
+                img={Project5}
+                summary="Sistema de administración de usuarios para una empresa de envíos masivos de mensajes en Whatsapp."
+                link="https://eflowchat.com/"
+                github="https://github.com/polsze/"
+                type="Proyecto finalizado"
               />
             </div>
 
@@ -401,7 +412,7 @@ const projects = () => {
               <FeaturedProject3
                 title="Service Oficial CABA"
                 img={Project3}
-                summary="Página web para un Servicio Técnico de Helaras de Capital Federal, Buenos Aires."
+                summary="Landing page para un Servicio Técnico de Heladeras de Capital Federal, Buenos Aires."
                 link="https://serviceoficial-caba.com.ar/"
                 github="https://github.com/polsze/serviceoficial-caba"
                 type="Proyecto finalizado"
@@ -416,17 +427,6 @@ const projects = () => {
                 link="https://gruposuka.com.ar/"
                 github="https://github.com/polsze/"
                 type="Proyecto en desarrollo"
-              />
-            </div>
-
-            <div className="col-span-12 px-6 pb-6">
-              <FeaturedProject5
-                title="Eflowchat – CRM Chat MultiAgente WhatsApp"
-                img={Project5}
-                summary="Sistema de administración de usuarios para una empresa de envíos masivos de mensajes en Whatsapp."
-                link="https://eflowchat.com/"
-                github="https://github.com/polsze/"
-                type="Proyecto en Desarrollo"
               />
             </div>
 

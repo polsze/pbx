@@ -5,8 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         mont: ['var(--font-mont)'],
-        racing: ['Racing Sans One', 'sans-serif']
-
+        racing: ['Racing Sans One', 'sans-serif'],
+        fugaz: ['Fugaz One', 'sans-serif']
       },
       colors: {
     dark: "#1b1b1b",

@@ -10,7 +10,7 @@ const Logo = () => {
 		<div className='flex items-center justify-center'>
 			<MotionLink href='/' className='w-50 h-50 flex items-center justify-center'
 			>
-			<p className='text-3xl text-pink-400 font-racing sm:text-center sm:text-2xl'>PBX Web Design</p>
+			<p className='text-3xl text-pink-400 uppercase font-fugaz sm:text-center sm:text-2xl'>PBX Web Design</p>
 			</MotionLink>
 		</div>
 	)
